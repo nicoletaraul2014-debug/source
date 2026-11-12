@@ -1,0 +1,202 @@
+{
+  "name": "Community LiveContainer Apps",
+  "identifier": "com.community.livecontainer.apps",
+  "subtitle": "Curated collection of popular LiveContainer-compatible apps from GitHub",
+  "description": "A single AltStore/LiveContainer source aggregating the latest IPAs from popular community projects: StikDebug, Husk, SideInstaller, ryP0, iDeck, LinuxRunner, IPAID, LiveExec32, Madeira, and FilzaJailedDS.\n\nAdd this source in LiveContainer → Sources → + and paste the raw URL of this JSON file (or host it yourself on GitHub Pages / raw.githubusercontent.com).\n\nNote: Bundle identifiers and metadata are taken from official sources where available. Always verify the IPA and trust the developer. Some apps require JIT (StikDebug recommended).",
+  "website": "https://github.com",
+  "tintColor": "#0784FC",
+  "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/Resources/AppIcon76x76.png",
+  "apps": [
+    {
+      "name": "StikDebug",
+      "bundleIdentifier": "com.stik.stikdebug",
+      "developerName": "StikDebug",
+      "subtitle": "On-device JIT enabler and device toolbox",
+      "localizedDescription": "An on-device debugger and developer toolbox for iOS 17.4+ powered by idevice. Enables Just-In-Time compilation for sideloaded apps that have the get-task-allow entitlement. Also includes app launching, console logs, scripts, expiry checking, device info, process management, and location simulation.\n\nNote: Requires LocalDevVPN in some setups. Cannot natively enable JIT for the same LiveContainer instance it is running inside.",
+      "iconURL": "https://github.com/StikDebug/StikDebug/blob/main/assets/StikDebug.png?raw=true",
+      "tintColor": "#3B86F7",
+      "versions": [
+        {
+          "version": "3.2.2",
+          "date": "2026-11-08",
+          "localizedDescription": "Fix Utsuro, Henge, and \"MeloCafe\". Full changelog: https://github.com/StikDebug/StikDebug/compare/3.2.1...3.2.2",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.2/StikDebug-3.2.2.ipa",
+          "size": 16924687
+        }
+      ]
+    },
+    {
+      "name": "Husk",
+      "bundleIdentifier": "com.husk.app",
+      "developerName": "Leviidev",
+      "subtitle": "Android apps and PS4 games on your iPhone",
+      "localizedDescription": "Husk runs Android apps and games, and PlayStation 4 games, on iPhone. Its Translation Layer runs games made with Unity, Unreal, Godot, Flutter, cocos2d-x, SDL and more natively. A full Android system is available for everything else, and its PS4 layer plays fake packages and game folders (iOS 17.4+). Husk needs JIT: StikDebug, its built-in StikJIT, TrollStore or a jailbreak — or Play without JIT after you import a certificate.",
+      "iconURL": "https://raw.githubusercontent.com/Leviidev/Husk/main/src/app/Husk/Assets.xcassets/AppIcon.appiconset/Icon-Default.png",
+      "tintColor": "#5865F2",
+      "versions": [
+        {
+          "version": "3.4",
+          "date": "2026-11-05T03:33:53Z",
+          "localizedDescription": "3.4 is a compatibility release. About 97% of the 472 F-Droid apps tested now run (up from 85%). On Play Store apps ~90% run (excluding anti-tamper). Microsoft Word, Slack, Gmail, Teams, Deezer, Flipboard, Picsart and more engines (React Native new architecture, Qt 6, libGDX) improved.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/3.4/Husk.ipa",
+          "size": 142303569
+        }
+      ]
+    },
+    {
+      "name": "SideInstaller",
+      "bundleIdentifier": "com.frizzlem.sideinstaller",
+      "developerName": "FrizzleM",
+      "subtitle": "Install SideStore / LiveContainer fully on-device",
+      "localizedDescription": "Install SideStore and LiveContainer directly on your iPhone. No PC required (especially useful on iOS 27 where the device can pair with itself). Supports Side-by-Side installs, Turkish language, and improved pairing/session handling.",
+      "iconURL": "https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/ios-app/Assets.xcassets/AppIcon.appiconset/AppIcon~ios-marketing.png",
+      "tintColor": "#FF6B35",
+      "versions": [
+        {
+          "version": "1.7.0",
+          "date": "2026-11-09T17:55:39Z",
+          "localizedDescription": "Added Turkish language. Nudge to update to iOS 27 at setup. Side by Side can now install SideStore and LiveContainer+SideStore (Stable or Nightly). Improved session/pairing privacy and many pairing/UX fixes.",
+          "downloadURL": "https://github.com/FrizzleM/SideInstaller/releases/download/v1.7.0/SideInstaller.ipa",
+          "size": 10739837
+        }
+      ]
+    },
+    {
+      "name": "ryP0",
+      "bundleIdentifier": "com.ry0.ryP0",
+      "developerName": "Sami-Wali",
+      "subtitle": "Discover independent iOS software",
+      "localizedDescription": "ryP0 is a clean catalog for discovering independent iOS software and releases. Browse projects, download available builds, access original sources, and keep supported apps automatically updated when new versions become available. Designed to work smoothly with LiveContainer workflows.",
+      "iconURL": "https://raw.githubusercontent.com/Sami-Wali/ryP0/main/assets/icons/ryP0-iOS.png",
+      "tintColor": "#00BFFF",
+      "versions": [
+        {
+          "version": "2.3",
+          "date": "2026-11-10T20:28:12Z",
+          "localizedDescription": "ryP0 2.3 release.",
+          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3/ryP0-2.3.ipa",
+          "size": 16533197
+        }
+      ]
+    },
+    {
+      "name": "iDeck",
+      "bundleIdentifier": "com.kuscholar.ideck",
+      "developerName": "kuscholar",
+      "subtitle": "Steam Big Picture experience on iOS (experimental)",
+      "localizedDescription": "iDeck brings Valve's real Steam client in Big Picture mode to your iPhone and iPad. Compatible Windows PC games run locally through Madeira, Wine, FEX and Metal. Connect a controller, open your library, and play from your pocket. Experimental alpha — Steam can freeze after the third game exit; many games still have limited support. Requires iOS 26+ and JIT.",
+      "iconURL": "https://raw.githubusercontent.com/kuscholar/iDeck/main/docs/assets/ideck/icon.png",
+      "tintColor": "#1B2838",
+      "versions": [
+        {
+          "version": "0.1.3-alpha.6",
+          "date": "2026-11-06T05:45:57Z",
+          "localizedDescription": "Build 145. Improved setup with direct Steam64 installer, visible pairing button and automatic checkmarks. Still experimental.",
+          "downloadURL": "https://github.com/kuscholar/iDeck/releases/download/v0.1.3-alpha.6/iDeck-0.1.3-alpha.6-build145.ipa",
+          "size": 173835258
+        }
+      ]
+    },
+    {
+      "name": "LinuxRunner",
+      "bundleIdentifier": "com.mxhm11cr.linuxrunner",
+      "developerName": "mxhm11cr",
+      "subtitle": "Your iPhone. A real Linux PC.",
+      "localizedDescription": "LinuxRunner brings ARM64 Linux userspace to iPhone and iPad through a custom instruction interpreter, an optional JIT engine and a Linux compatibility layer. Run Linux applications, explore desktop environments (Hyprland, Xfce, KDE Plasma, etc.) and use an external display. Six distributions available: Debian, Arch Linux ARM, Fedora, Kali, Alpine and experimental SteamOS ARM64. No jailbreak required; JIT is optional.",
+      "iconURL": "https://raw.githubusercontent.com/mxhm11cr/LinuxRunner/main/assets/branding/linuxrunner-icon.svg",
+      "tintColor": "#4A90D9",
+      "versions": [
+        {
+          "version": "1.1.1",
+          "date": "2026-11-08T16:35:07Z",
+          "localizedDescription": "Build 905. Redesigned app (Home, Distributions, Settings), Termux-like terminal, six distributions, Metal graphics, optional ARM64 JIT, DeX-style external desktop mode.",
+          "downloadURL": "https://github.com/mxhm11cr/LinuxRunner/releases/download/v1.1.1/LinuxRunner-1.1.1-build905.ipa",
+          "size": 26429748
+        }
+      ]
+    },
+    {
+      "name": "IPAID",
+      "bundleIdentifier": "com.shplash.ipaid",
+      "developerName": "shplash",
+      "subtitle": "Lightweight on-device IPA editor",
+      "localizedDescription": "IPAID is an on-device utility for editing IPA bundle identifiers, display names, and URL schemes before signing or installing. Manage app extensions, customize exported IPA filenames, and compare original and exported file sizes. Fully iPhone-native workflow. Useful for SideStore, AltStore, Feather, and LiveContainer workflows.",
+      "iconURL": "https://raw.githubusercontent.com/shplash/IPAID/main/assets/AppIconSource1.PNG",
+      "tintColor": "#8FBF7A",
+      "versions": [
+        {
+          "version": "1.21",
+          "date": "2026-09-15T18:10:50Z",
+          "localizedDescription": "Added About screen with GitHub, update checker, bug reports, feature requests, and optional support link. Added light/dark mode toggle.",
+          "downloadURL": "https://github.com/shplash/IPAID/releases/download/v1.21/IPAID.ipa",
+          "size": 1766144
+        }
+      ]
+    },
+    {
+      "name": "LiveExec32",
+      "bundleIdentifier": "com.kdt.LiveExec32",
+      "developerName": "LiveContainer Team",
+      "subtitle": "Run 32-bit binaries on 64-bit iOS",
+      "localizedDescription": "Run 32-bit iOS applications on 64-bit devices by passing through syscalls. Intended primarily for use inside LiveContainer. Not all apps will work (missing symbols are common). Nightly builds only for now.",
+      "iconURL": "https://github.com/LiveContainer.png",
+      "tintColor": "#FF0F0F",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "date": "2026-10-29T15:09:52Z",
+          "localizedDescription": "Nightly build (commit 80ea78b). Update issue form.",
+          "downloadURL": "https://github.com/LiveContainer/LiveExec32/releases/download/nightly/com.kdt.liveexec32_0.0.1.ipa",
+          "size": 14525032,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Madeira",
+      "bundleIdentifier": "com.willfaust.madeira",
+      "developerName": "willfaust",
+      "subtitle": "Windows PC games on iPhone (research project)",
+      "localizedDescription": "Madeira runs Windows PC games on an iPhone with no jailbreak. Uses FEX-Emu (x86/x86-64 → ARM64), Wine 11.4 (ARM64EC), DXMT (D3D9/10/11 → Metal) and a custom D3D12 implementation. Supports Steam library, Steam Cloud saves, controllers, keyboard/mouse, and Japanese locale. Requires iOS 26+ and JIT (StikDebug or built-in helper). Active research project — expect rough edges and variable compatibility.",
+      "iconURL": "https://raw.githubusercontent.com/willfaust/Madeira/main/docs/assets/banner.png",
+      "tintColor": "#28C7D9",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-11-04T03:29:04Z",
+          "localizedDescription": "Madeira 0.2.0 release.",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.2.0/Madeira-0.2.0.ipa",
+          "size": 186400561
+        }
+      ]
+    },
+    {
+      "name": "Filza Jailed DS",
+      "bundleIdentifier": "com.tigisoftware.Filza",
+      "developerName": "34306",
+      "subtitle": "Filza File Manager with sandbox escape (jailed)",
+      "localizedDescription": "Filza Jailed Darksword — open-source tweak injected into Filza IPA. Supports iOS 17.0–26.0.1 (with some exceptions). Provides elevated file system access on non-jailbroken devices via sandbox escape techniques. Use at your own risk; experimental and may break with iOS updates.",
+      "iconURL": "https://avatars.githubusercontent.com/u/34306?v=4",
+      "tintColor": "#FF9500",
+      "versions": [
+        {
+          "version": "2.2",
+          "date": "2026-04-25T00:21:29Z",
+          "localizedDescription": "FilzaJailedDS 2.2. Supports iOS 17.0-26.0.1 (except certain 18.7.x builds).",
+          "downloadURL": "https://github.com/34306/FilzaJailedDS/releases/download/2.2/Filza.ipa",
+          "size": 14213420
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Community source created",
+      "identifier": "community-source-2026-11",
+      "caption": "Aggregated latest releases from the 10 requested GitHub repositories for easy addition in LiveContainer.",
+      "date": "2026-11-12",
+      "tintColor": "#0784FC",
+      "notify": false
+    }
+  ]
+}
